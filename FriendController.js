@@ -442,7 +442,7 @@ $scope.options = [
   {name: "Country", value: "current_location.country"}
 ];
 
-$scope.sortProp="Name";
+
 
 $scope.friends.forEach(function() {
     if($scope.friends.current_location === null) {
@@ -450,5 +450,6 @@ $scope.friends.forEach(function() {
     }
 });
 
+$scope.sortProp="name";
 
 }); //end main controller
